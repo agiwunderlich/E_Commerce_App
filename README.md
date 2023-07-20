@@ -4,7 +4,37 @@ Fully-featured E-Commerce application from scratch - including production-grade 
 
 ## Introduction
 
-<!-- Provide a brief overview of your E-Commerce application, its purpose, and its key features. -->
+The application is an E-Commerce application that is built using Node.js.
+It will include both public-facing pages for users and an admin panel for managing products.
+Users will be able to view items, add them to a cart, and eventually attempt to purchase them.
+The application serves HTML pages and use JavaScript to provide dynamic functionality.
+The focus is on building a web server and showing dynamic HTML pages using JavaScript.
+
+**Public User Features:**
+Users can visit the website and see a list of different items available for purchase.
+Each item will display an image, title, and price.
+Users can add items to their shopping cart by clicking the "Add to Cart" button.
+The shopping cart page will display the added items with their title, quantity, price, and total price.
+Users can remove items from the shopping cart.
+The shopping cart will display the total price for all items.
+A "buy" button will be provided, but it won't have any functional payment processing.
+
+**Admin Panel Features:**
+The admin panel is accessible only to administrators or site owners.
+Administrators can create new products, edit existing products, and delete products.
+The admin panel will include a form for creating/editing products, allowing input for product name, price, and image upload.
+Authentication and Access Control:
+
+The admin panel and its functionality will be protected with authentication.
+Administrators will need to sign up with an email, password, and password confirmation.
+Only administrators will be required to log in to access the admin panel.
+Public users (customers) can browse items and use the shopping cart without logging in.
+
+**Overall Scope:**
+The application will consist of six different pages: item list, shopping cart (public), admin panel (hidden), sign up, sign in, and product creation/editing form.
+The main focus is on building a functional web server and implementing dynamic HTML pages.
+The application does not include billing or payment processing functionality.
+There will be two types of users: administrators (with access to the admin panel) and public users (with access to public pages only).
 
 ## Installation
 
@@ -90,4 +120,10 @@ These dependencies are essential for various aspects of the E-Commerce applicati
 
 ## Contributing
 
-<!-- If you want to encourage contributions, provide guidelines for contributing to your project. Explain how users can submit bug reports, feature requests, or pull requests.-->
+If you'd like to submit bug reports or contribute to the project, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes and commit them.
+4. Push your changes to the forked repository.
+5. Submit a pull request.
