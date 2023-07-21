@@ -39,7 +39,8 @@ body {
 }
 
 .navbar-top.navbar {
-  background-color: var(--primary);
+  /*background-color: "var(--primary)";*/
+  background-color: #d9b79a;
 }
 
 .navbar-buttons {
@@ -121,7 +122,7 @@ body {
 }
 
 .quantity:before {
-  content: '#';
+  content: "#";
   position: absolute;
   z-index: 10;
   top: 0;
@@ -143,4 +144,21 @@ body {
 .cart-right {
   display: flex;
   align-items: center;
+}
+
+.fa.fa-tag,
+.fa-shopping-cart {
+  color: black;
+}
+
+.fa.fa-bookmark {
+  color: #f2dabd;
+}
+
+div.navbar-item a {
+  color: black;
+}
+
+h3.title {
+  font-weight: 400;
 }

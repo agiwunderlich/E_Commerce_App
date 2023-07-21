@@ -6,6 +6,7 @@ module.exports = ({ content }) => {
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Shop</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
         
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet">
         <link href="/css/main.css" rel="stylesheet">
@@ -18,9 +19,6 @@ module.exports = ({ content }) => {
             <div class="container navbar-container">
               <div>
                 <ul class="social">
-                  <li>
-                    <a href=""><i class="fa fa-phone"></i>+1 555 987 6543</a>
-                  </li>
                   <li>
                     <a href=""><i class="fa fa-envelope"></i> shop@myshop.com</a>
                   </li>
@@ -41,13 +39,13 @@ module.exports = ({ content }) => {
             <div class="container navbar-container">
               <div>
                 <a href="/">
-                  <h3 class="title">EComm Shop</h3>
+                  <h3 class="title"><i class="fa fa-bookmark"></i> EComm Shop</h3>
                 </a>
               </div>
               <div class="navbar-item">
                 <div class="navbar-buttons">
                   <div class="navbar-item">
-                    <a href="/"><i class="fa fa-star"></i> Products</a>
+                    <a href="/"><i class="fa fa-tag"></i> Products</a>
                   </div>
                   <div class="navbar-item">
                     <a href="/cart"><i class="fa fa-shopping-cart"></i> Cart</a>
