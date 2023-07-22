@@ -40,7 +40,8 @@ body {
 
 .navbar-top.navbar {
   /*background-color: "var(--primary)";*/
-  background-color: #d9b79a;
+  /*background-color: #d9b79a;*/
+  background-color: #f0dbba;
 }
 
 .navbar-buttons {
@@ -157,8 +158,29 @@ body {
 
 div.navbar-item a {
   color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+
+h2.title,
+.shop {
+  font-weight: 400;
+  font-family: "Times New Roman", Times, serif;
 }
 
 h3.title {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 10px;
+}
+
+h3.subtitle,
+h5 {
+  font-family: "Courier New", Courier, monospace;
   font-weight: 400;
+}
+
+img#logo {
+  margin-top: 20px;
 }

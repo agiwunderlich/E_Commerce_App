@@ -20,17 +20,18 @@ module.exports = ({ content }) => {
               <div>
                 <ul class="social">
                   <li>
-                    <a href=""><i class="fa fa-envelope"></i> shop@myshop.com</a>
+                    <a href="" class="shop"><i class="fa fa-envelope"></i> shop@myshop.com</a>
                   </li>
                 </ul>
+              </div>
+              <div>
+              <h3 class="title"><img src="images/logo.png" alt="Logo" style="width:40px;height:40px" id="logo"> Poppy Store </h3>
               </div>
               <div>
                 <ul class="social">
                   <li><a href=""><i class="fab fa-facebook"></i></a></li>
                   <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                  <li><a href=""><i class="fab fa-linkedin"></i></a></li>
-                  <li><a href=""><i class="fab fa-dribbble"></i></a></li>
-                  <li><a href=""><i class="fab fa-google-plus"></i></a></li>
+                  <li><a href=""><i class="fab fa-instagram"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -38,8 +39,8 @@ module.exports = ({ content }) => {
           <nav class="navbar navbar-bottom">
             <div class="container navbar-container">
               <div>
-                <a href="/">
-                  <h3 class="title"><i class="fa fa-bookmark"></i> EComm Shop</h3>
+                <a href="">
+                  <h3 class="title"></h3>
                 </a>
               </div>
               <div class="navbar-item">
