@@ -9,7 +9,7 @@ module.exports = ({ items }) => {
   const renderedItems = items
     .map((item) => {
       return `
-        <div class="cart-item message">
+        <div class="cart-item message is-white">
           <h3 class="subtitle">${item.product.title}</h3>
           <div class="cart-right">
             <div>
@@ -21,7 +21,7 @@ module.exports = ({ items }) => {
             <div class="remove">
               <form method="POST" action="/cart/products/delete">
                 <input hidden value="${item.id}" name="itemId" />
-                <button class="button is-danger">                  
+                <button class="button is-light is-small">                  
                   <span class="icon is-small">
                     <i class="fas fa-times"></i>
                   </span>
@@ -44,12 +44,12 @@ module.exports = ({ items }) => {
             <div>
               ${renderedItems}
             </div>
-            <div class="total message is-info">
+            <div class="total message is-light">
               <div class="message-header">
                 Total
               </div>
               <h1 class="title">$${totalPrice}</h1>
-              <button class="button is-primary">Buy</button>
+              <button class="button is-dark buy">Buy</button>
             </div>
           </div>
           <div class="column"></div>

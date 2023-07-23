@@ -184,3 +184,18 @@ h5 {
 img#logo {
   margin-top: 20px;
 }
+
+div#cart {
+  font-family: "Courier New", Courier, monospace;
+}
+
+button.buy {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+h1.title {
+  margin-left: 10px;
+}
