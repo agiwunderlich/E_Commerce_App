@@ -36,10 +36,9 @@ The main focus is on building a functional web server and implementing dynamic H
 The application does not include billing or payment processing functionality.
 There will be two types of users: administrators (with access to the admin panel) and public users (with access to public pages only).
 
-<img width="300" alt="movieapp" src="https://github.com/agiwunderlich/E_Commerce_App/assets/35004717/393acd9a-8606-4033-90c0-56dc5eec4acd">
+<img width="600" alt="movieapp" src="https://github.com/agiwunderlich/E_Commerce_App/assets/35004717/393acd9a-8606-4033-90c0-56dc5eec4acd">
 
-
-![cart](https://github.com/agiwunderlich/E_Commerce_App/assets/35004717/7abfa171-fcd2-4cbf-9a6c-a0912b2f105f)
+<img width="600" alt="movieapp" src="https://github.com/agiwunderlich/E_Commerce_App/assets/35004717/7abfa171-fcd2-4cbf-9a6c-a0912b2f105f">
 
 
 ## Installation
