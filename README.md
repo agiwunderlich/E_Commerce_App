@@ -38,6 +38,10 @@ There will be two types of users: administrators (with access to the admin panel
 
 <img width="600" alt="movieapp" src="https://github.com/agiwunderlich/E_Commerce_App/assets/35004717/393acd9a-8606-4033-90c0-56dc5eec4acd">
 
+<br/>
+<br/>
+<br/>
+
 <img width="600" alt="movieapp" src="https://github.com/agiwunderlich/E_Commerce_App/assets/35004717/7abfa171-fcd2-4cbf-9a6c-a0912b2f105f">
 
 
